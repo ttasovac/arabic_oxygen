@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- The next line associates the TEI doc with a CSS stylesheet.-->
-<?xml-stylesheet type="text/css" href="css/style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,12 +12,13 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>In addition to associating the attached stylesheet with the xml doc, go to
-               Preferences in oXygen > Document Type Associations > TEI 5. Click on Author Tab and
-               in the section "If there are CSSs specified in the document" make sure that "merge
-               them with CSSs from the associated document type" is selected -- if you want our
-               stylesheet <hi rend="italic">not</hi> to overwrite the default TEI CSS stylesheets.
-            </p>
+            <p>In project settings (I can explain when we speak next), I made sure that the default
+               TEI CSS stylesheets are <hi rend="italic">not</hi> overwritten by our custom
+               stylesheet + I created shortcuts (<code>COMMAND-1</code>, <code>COMMAND-2</code>,
+                  <code>COMMAND-3</code> (on Mac OS) and <code>CTRL-1</code>, <code>CTRL-2</code>,
+                  <code>CTRL-3</code> on other platforms  which should work in both Text and Author
+               modes on selected text to turn it into <gi>ab</gi> (anonymous block) elements of type
+                  <code>isnad</code>, <code>matn</code> or <code>hukm</code>. </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,15 +29,16 @@
             <ab type="isnad">أنبأنا عبد الرحمن بن محمد قال أنبأنا أحمد بن علي بن ثابت الخطيب قال
                أنبأنا القاضى أبوالعلا محمد بن علي الواسطي قال حدثنا أحمد بن جعفر بن محمد بن الفرج
                الخلال قال حدثنا أبو حامد أحمد بن رجا بن عبيدة قال حدثنا محمد بن محمد بن إسحاق البصري
-               قال حدثنا سويد بن نصر البلخي قال حدثنا سفيان الثوري عن حماد عن إبراهيم عن علقمة قال </ab>
+               قال حدثنا سويد بن نصر البلخي قال حدثنا سفيان الثوري عن حماد عن إبراهيم عن علقمة
+               قال</ab>
             <ab type="matn">قال عبد الله قال رسول الله صلى الله عليه وسلم لله تعالى ثلاثة أملاك ملك
                موكل بالكعبة وملك موكل بمسجدي هذا وملك موكل بالمسجد الأقصى فأما الملك الموكل بالكعبة
                فينادي في كل يوم من ترك فرائض الله خرج من أمان الله وأما الملك الموكل بمسجدى هذا
                فينادى في كل يوم من ترك سنة محمد صلى الله عليه وسلم لم يرد الحوض ولم تدركه شفاعة محمد
                صلى الله عليه وسلم وأما الملك الموكل بالمسجد الأقصى فينادي في كل يوم من كانت طعمته
-               حراما كان عمله مضروبا به في وجهه </ab>
+               حراما كان عمله مضروبا به في وجهه</ab>
             <ab type="hukm">وقال الخطيب هذا حديث منكر ورجال إسناده كلهم ثقاة معروفون سوى البصري
-               وأحمد بن رجاء فإنهما مجهولان </ab>
+               وأحمد بن رجاء فإنهما مجهولان</ab>
          </div>
       </body>
    </text>
