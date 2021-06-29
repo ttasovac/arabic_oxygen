@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- The next line associates the TEI doc with a CSS stylesheet.-->
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Testing Arabic rtl in oXygen with CSS stylesheets</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>In addition to associating the attached stylesheet with the xml doc, go to
+               Preferences in oXygen > Document Type Associations > TEI 5. Click on Author Tab and
+               in the section "If there are CSSs specified in the document" make sure that "merge
+               them with CSSs from the associated document type" is selected -- if you want our
+               stylesheet <hi rend="italic">not</hi> to overwrite the default TEI CSS stylesheets.
+            </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div type="chapter">
+            <head>باب ذكر الملائكة الموكلين بالمساجد الثلاثة</head>
+            <ab type="isnad">أنبأنا عبد الرحمن بن محمد قال أنبأنا أحمد بن علي بن ثابت الخطيب قال
+               أنبأنا القاضى أبوالعلا محمد بن علي الواسطي قال حدثنا أحمد بن جعفر بن محمد بن الفرج
+               الخلال قال حدثنا أبو حامد أحمد بن رجا بن عبيدة قال حدثنا محمد بن محمد بن إسحاق البصري
+               قال حدثنا سويد بن نصر البلخي قال حدثنا سفيان الثوري عن حماد عن إبراهيم عن علقمة قال </ab>
+            <ab type="matn">قال عبد الله قال رسول الله صلى الله عليه وسلم لله تعالى ثلاثة أملاك ملك
+               موكل بالكعبة وملك موكل بمسجدي هذا وملك موكل بالمسجد الأقصى فأما الملك الموكل بالكعبة
+               فينادي في كل يوم من ترك فرائض الله خرج من أمان الله وأما الملك الموكل بمسجدى هذا
+               فينادى في كل يوم من ترك سنة محمد صلى الله عليه وسلم لم يرد الحوض ولم تدركه شفاعة محمد
+               صلى الله عليه وسلم وأما الملك الموكل بالمسجد الأقصى فينادي في كل يوم من كانت طعمته
+               حراما كان عمله مضروبا به في وجهه </ab>
+            <ab type="hukm">وقال الخطيب هذا حديث منكر ورجال إسناده كلهم ثقاة معروفون سوى البصري
+               وأحمد بن رجاء فإنهما مجهولان </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
