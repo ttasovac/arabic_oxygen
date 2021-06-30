@@ -12,11 +12,10 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>In project settings (I can explain when we speak next), I made sure that the default
-               TEI CSS stylesheets are <hi rend="italic">not</hi> overwritten by our custom
-               stylesheet + I created shortcuts (<code>COMMAND-1</code>, <code>COMMAND-2</code>,
+            <p>Open test.xml first, then click on "+ Transmission Chain" from the Styles menu in the
+               main toolbar. I created shortcuts (<code>COMMAND-1</code>, <code>COMMAND-2</code>,
                   <code>COMMAND-3</code> (on Mac OS) and <code>CTRL-1</code>, <code>CTRL-2</code>,
-                  <code>CTRL-3</code> on other platforms  which should work in both Text and Author
+                  <code>CTRL-3</code> on other platforms which should work in both Text and Author
                modes on selected text to turn it into <gi>ab</gi> (anonymous block) elements of type
                   <code>isnad</code>, <code>matn</code> or <code>hukm</code>. </p>
          </sourceDesc>

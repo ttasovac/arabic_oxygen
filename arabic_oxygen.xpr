@@ -7046,7 +7046,7 @@ ${caret}</String>
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>TEI P5</String>
+                                    <String>TEI P5 (Arabic NewNLP)</String>
                                 </field>
                                 <field name="schemaDescriptor">
                                     <docTypeSchema>
@@ -7100,7 +7100,7 @@ ${caret}</String>
                                                         <String>${pdu}/css/style.css</String>
                                                     </field>
                                                     <field name="title">
-                                                        <String>Transmission Chain</String>
+                                                        <String>+ Transmission Chain</String>
                                                     </field>
                                                     <field name="alternate">
                                                         <Boolean>true</Boolean>
@@ -11109,7 +11109,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
                                             </list>
                                         </field>
                                         <field name="extendedPersistentObjectKey">
-                                            <String>TEI P5</String>
+                                            <String>TEI P5 (Arabic NewNLP)</String>
                                         </field>
                                     </documentTypeDescriptorPatch>
                                 </field>
